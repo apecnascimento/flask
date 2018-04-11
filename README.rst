@@ -36,11 +36,25 @@ A Simple Example
     def hello():
         return 'Hello, World!'
 
+On Unix-like systems
 .. code-block:: text
-
     $ FLASK_APP=hello.py flask run
      * Serving Flask app "hello"
      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+On Widowns cmd
+.. code-block:: text
+    > set FLASK_APP=hello.py flask run
+     * Serving Flask app "hello"
+     * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+On Windowns PowerShell
+.. code-block:: text
+    > $env:FLASK_APP="hello.py" flask run
+     * Serving Flask app "hello"
+     * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+
 
 
 Links
