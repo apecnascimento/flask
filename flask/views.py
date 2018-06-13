@@ -11,6 +11,7 @@
 
 from .globals import request
 from ._compat import with_metaclass
+from .templating import render_template
 
 
 http_method_funcs = frozenset(['get', 'post', 'head', 'options',
